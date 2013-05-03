@@ -1,0 +1,16 @@
+Clean
+Chorus
+Warble Chorus
+Tremolo
+Vibrato
+Wah
+Ring Modulator
+Low Fuzz Wah
+Med Fuzz Wah
+Hi Fuzz Wah
+Ring Mod Fuzz
+Fuzz
+Subtractive OD
+Tube Screamer
+Digital Delay
+Tape Echo

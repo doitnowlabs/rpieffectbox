@@ -1,0 +1,16 @@
+Non Editable
+Fdbk,Depth,Speed
+Fdbk,Depth,Speed
+Spd,Shape,Depth
+Depth,Speed
+MaxF,MinF,Speed
+Pitch
+MaxF,MinF,Speed
+MaxF,MinF,Speed
+MaxF,MinF,Speed
+Pitch,Boost
+Boost,Tone
+Gain,Tone
+Gain
+DlyTime, Repeats
+DlyTime, Repeats

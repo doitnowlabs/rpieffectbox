@@ -1,0 +1,24 @@
+#N canvas -1 44 1280 720 10;
+#X obj 352 61 delwrite~ delay1 1000;
+#X obj 241 214 delread~ delay1 250;
+#X obj 325 131 *~ 0.8;
+#X obj 82 79 adc~;
+#X obj 144 188 dac~;
+#X obj 470 209 hsl 128 15 0 1000 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 3480 1;
+#X obj 487 167 hsl 128 15 0 0.9 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 7168 1;
+#X obj 537 102 netreceive 5001 1;
+#X obj 537 124 route 0 1 2;
+#X obj 647 167 * 0.001;
+#X connect 1 0 2 0;
+#X connect 1 0 4 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
+#X connect 3 0 4 0;
+#X connect 5 0 1 0;
+#X connect 6 0 2 1;
+#X connect 7 0 8 0;
+#X connect 8 1 9 0;
+#X connect 8 2 5 0;
+#X connect 9 0 6 0;

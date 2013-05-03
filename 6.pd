@@ -1,0 +1,17 @@
+#N canvas 340 372 450 300 10;
+#X obj 137 52 adc~;
+#X obj 136 74 *~;
+#X obj 241 4 hsl 128 15 0 1023 0 0 empty empty empty -2 -8 0 10 -258113
+-1 -1 10300 1;
+#X obj 201 46 phasor~;
+#X obj 201 68 cos~;
+#X obj 137 113 dac~;
+#X obj 314 52 netreceive 5001 1;
+#X obj 314 74 route 0 1 2;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 1 1;
+#X connect 6 0 7 0;
+#X connect 7 2 2 0;
