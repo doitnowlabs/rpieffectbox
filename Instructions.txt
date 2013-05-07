@@ -38,7 +38,8 @@ I wired the input and output of this card to 1/4" jacks to make connecting an am
 
 Please go here:
 http://scruss.com/blog/2013/01/19/the-quite-rubbish-clock/#spi
-to find a guide that walks you through setting up the spi bus on your raspberry pi.
+to find a guide that walks you through setting up the spi bus on your raspberry pi. The ADC that I used in this
+project uses the SPI protocol to communicate with the pi. This is why you need it set up.
 
 Once you follow that guide, you need to install pure data extended:
 www.putedata.info
