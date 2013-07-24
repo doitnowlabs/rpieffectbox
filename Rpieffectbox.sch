@@ -65,21 +65,21 @@ C 43000 45800 1 0 0 pot-bourns.sym
 T 43800 46700 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 43600 46200 5 10 1 1 0 0 1
-refdes=R7
+refdes=R7 (POT)
 }
 C 42900 44200 1 0 0 pot-bourns.sym
 {
 T 43700 45100 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 43500 44600 5 10 1 1 0 0 1
-refdes=R8
+refdes=R8 (POT)
 }
 C 42900 41200 1 0 0 pot-bourns.sym
 {
 T 43700 42100 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 43500 41600 5 10 1 1 0 0 1
-refdes=R10
+refdes=R10 (POT)
 }
 T 49400 45400 9 10 1 0 0 0 1
 4
@@ -105,7 +105,7 @@ C 42900 42600 1 0 0 pot-bourns.sym
 T 43700 43500 5 10 0 0 0 0 1
 device=VARIABLE_RESISTOR
 T 43500 43000 5 10 1 1 0 0 1
-refdes=R9
+refdes=R9 (POT)
 }
 N 43400 43800 43400 43200 4
 N 42900 40700 42900 45900 4
@@ -182,11 +182,11 @@ N 47100 42600 47100 43100 4
 N 47100 40300 47200 40300 4
 N 47200 40300 47200 40700 4
 T 46100 42700 9 10 1 0 0 0 1
-R1 .2 OHMS
+R1 1K OHMS
 T 46100 41600 9 10 1 0 0 0 1
-R2 .2 OHMS
+R2 1K OHMS
 T 46100 40400 9 10 1 0 0 0 1
-R3 .2 OHMS
+R3 1K OHMS
 T 47200 43300 9 10 1 0 0 0 1
 R4 10k OHMS
 T 47200 42100 9 10 1 0 0 0 1
@@ -197,13 +197,26 @@ T 48200 40600 9 10 1 0 0 0 1
 Rpi pin 11
 T 48200 43000 9 10 1 0 0 0 1
 Rpi pin 12
-T 40200 45200 9 10 1 0 0 0 7
-Rx, Tx and GND of the
+T 40000 40100 9 10 1 0 0 0 8
+The Rx and GND of the
 Serial LCD backpack
 go to the Rpi's 
-Rx, Tx and GND.
-No level shifting is necessary.
+Rx and GND.
+No level shifting is necessary for 
+outgoing communications (From the Pi).
 This assumes you are using a 
 K107 R4 from Wulden.
-T 50400 44400 9 10 1 0 0 0 1
-ADC
+T 50200 44400 9 10 1 0 0 0 1
+ADC chip
+T 50000 40700 9 10 1 0 0 0 1
+Raspberry Pi Guitar effect box
+T 53900 40100 9 10 1 0 0 0 1
+Ben Jacobs (Doitnowlabs)
+T 53900 40400 9 10 1 0 0 0 1
+V1.1
+T 50000 40100 9 10 1 0 0 0 1
+1
+T 51500 40100 9 10 1 0 0 0 1
+1
+T 50000 40400 9 10 1 0 0 0 1
+Rpieffectbox.sch
