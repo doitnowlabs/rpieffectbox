@@ -220,3 +220,5 @@ T 51500 40100 9 10 1 0 0 0 1
 1
 T 50000 40400 9 10 1 0 0 0 1
 Rpieffectbox.sch
+T 40000 41900 9 10 1 0 0 0 1
+POTs are all 10k audio taper.
