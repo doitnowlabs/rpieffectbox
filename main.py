@@ -10,10 +10,10 @@ GPIO.setup(18, GPIO.IN)
 GPIO.setup(4, GPIO.IN)
 preset = 0
 preset_old = 0
-name_file = open ("/root/Desktop/fx/names.txt")
+name_file = open ("/ben/Desktop/rpieffectbox/names.txt")
 names = name_file.read().splitlines()
 print names
-function_file = open ("/root/Desktop/fx/functions.txt")
+function_file = open ("/ben/Desktop/rpieffectbox/functions.txt")
 functions = function_file.read().splitlines()
 print functions
 ser = serial.Serial('/dev/ttyAMA0')
