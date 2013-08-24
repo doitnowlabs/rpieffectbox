@@ -52,6 +52,7 @@ www.putedata.info
 
 ***IMPORTANT NOTE***
 
+We now have to change some file paths:
 After installing puredata, double click the 'server.pd' file in the rpieffectbox folder. This should open puredata. 
 You should see a box (it's actually called an object) that says:
 
@@ -60,7 +61,13 @@ pd open $1.pd /home/ben/Desktop/rpieffectbox
 
 Press CTRL+E on your keyboard to go into edit mode. Now, click this object and change /home/ben/Desktop to be the path to wherever your rpieffectbox folder is. 
 For example, if you cloned it to your home folder, you should change the path to /home/(your username here)/rpieffectbox
-Just make sure it is the COMPLETE path to the folder.
+Just make sure it is the COMPLETE path to the folder. You will also need to change these lines:
+
+name_file = open ("/ben/Desktop/rpieffectbox/names.txt")
+
+function_file = open ("/ben/Desktop/rpieffectbox/functions.txt")
+
+In main.py to the FULL path to both names.txt and functions.txt respectivly.
 
 ***IMPORTANT NOTE***
 
