@@ -5,7 +5,7 @@
 #X obj 140 168 \$1;
 #X msg 122 196 \; pd-\$1.pd menuclose;
 #X obj 192 126 print;
-#X msg 56 233 \; pd open \$1.pd /home/<YourUsernameHere>/Desktop/fx;
+#X msg 56 233 \; pd open \$1.pd /home/<YourUsernameHere>/Desktop/rpieffectbox;
 #X connect 0 0 1 0;
 #X connect 0 0 5 0;
 #X connect 1 0 2 0;
