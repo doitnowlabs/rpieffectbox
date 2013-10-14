@@ -139,6 +139,9 @@ Happy Hacking!
 
 -Ben
 
+P.S: If PD throws a soundcard related error, try running it with sudo. Also, make sure you have the extended version of PD.
+
+
 
  
 
