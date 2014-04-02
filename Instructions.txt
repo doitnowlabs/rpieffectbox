@@ -132,7 +132,49 @@ If you don't understand any of that, you can always look at one of the .pd files
 Just as a note, the potentiometers I used in my effect box are 10k ohms. I have found that audio taper pots don't work very well for fine adjustments. 
 I would reccomend that you use linear pots. 10k seems like a good value, though. Experiment and see what you like!
 
-Again, if you run into any troubles, if I forgot to explain something (or didn't explain it well enough) I would be glad to help you. You can email me at benhjake (AT) gmail.com.
+And finally, because so many people ask for one, here is a BOM (Parts list):
+
+1. Raspberry pi model B
+
+2. Sound card as mentioned in this docment (Follow the amazon link)
+
+3. Resistors (As per schematic diagram)
+
+4. ADC chip ( look up "MCP3008" on Digikey.com, Mouser.com or even just google search it )
+
+5. Three momentary push buttons
+
+6. Four 10k ohm potentiometers
+
+7. Lots of wire
+
+8. 2 1/4" audio jacks (The type you'd find on a guitar amp)
+
+9. Some perf board
+
+10. A connector that will go from the raspberry pi's GPIO pins to the circuit (perf) board
+
+11. An LCD serial backpack as mentioned before (Follow the Wulfden.com link)
+
+12. An LCD that is compatible with the serial backpack
+
+13. A 1x3 male .100" header to connect the serial backpack to the circuit (perf) board (Data+, Data-, GND)
+
+14. A way to wire the output of the sound card to the 1/4" jacks. I'll leave this up to you. I used some old clipped audio cables.
+
+Well, I can't think of anything else, so I'll leave it at that.
+
+VERY IMPORTANT!! - If you do not have loads of free time to mess around debugging this project, I would recommend that
+you try a different project. Even I had a hard time making this project work (And I have a hard time remembering what steps I took to make it work),
+so don't feel bad if it doesn't work at first,
+because I can almost guarentee that some aspect of the project will take some time to debug. So in short, I can only recommend this project
+to hobbyists who have some extra time and are building it for enjoyment. I can't recommend it to students or anyone with a deadline.
+Also, experience in Linux and Python are essential to this project. Sone knowledge of PD is also helpful.
+While all this may sound discouraging, please remeber that it isn't my goal to discourage; I just want to let you know that for most people,
+this isn't an easy project.
+
+Thanks for understanding,
+-Ben
 
 Thanks for downloading my software,
 Happy Hacking!
