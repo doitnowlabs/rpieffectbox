@@ -164,22 +164,9 @@ And finally, because so many people ask for one, here is a BOM (Parts list):
 
 Well, I can't think of anything else, so I'll leave it at that.
 
-VERY IMPORTANT!! - If you do not have loads of free time to mess around debugging this project, I would recommend that
-you try a different project. Even I had a hard time making this project work (And I have a hard time remembering what steps I took to make it work),
-so don't feel bad if it doesn't work at first,
-because I can almost guarentee that some aspect of the project will take some time to debug. So in short, I can only recommend this project
-to hobbyists who have some extra time and are building it for enjoyment. I can't recommend it to students or anyone with a deadline.
-Also, experience in Linux and Python are essential to this project. Sone knowledge of PD is also helpful.
-While all this may sound discouraging, please remeber that it isn't my goal to discourage; I just want to let you know that for most people,
-this isn't an easy project.
-
-Thanks for understanding,
--Ben
 
 Thanks for downloading my software,
 Happy Hacking!
-
--Ben
 
 P.S: If PD throws a soundcard related error, try running it with sudo. Also, make sure you have the extended version of PD.
 
