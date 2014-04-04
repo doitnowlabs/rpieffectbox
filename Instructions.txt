@@ -93,8 +93,8 @@ import RPi.GPIO as GPIO
 import os
 import subprocess
 
-If these commands don't throw an error, everything is installed. If one or two do throw an error, just google how to install them, or If you can't figure out how to install them, send me an email. 
-Now, assuming that all the needed libraries are installed, Just run my script 'main.py', and puredata should open. If it doesn't, please email me for help, and I will try to provide it. Feel free to play with the code and change the built in effcts! 
+If these commands don't throw an error, everything is installed. If one or two do throw an error, just google how to install them.
+Now, assuming that all the needed libraries are installed, Just run my script 'main.py', and puredata should open. Feel free to play with the code and change the built in effcts! 
 
 To add your own effect:
 
