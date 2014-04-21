@@ -158,7 +158,7 @@ And finally, because so many people ask for one, here is a BOM (Parts list):
 
 12. An LCD that is compatible with the serial backpack
 
-13. A 1x3 male .100" header to connect the serial backpack to the circuit (perf) board (Data+, Data-, GND)
+13. A 1x3 male .100" header to connect the serial backpack to the circuit (perf) board (RX, TX, and GND)
 
 14. A way to wire the output of the sound card to the 1/4" jacks. I'll leave this up to you. I used some old clipped audio cables.
 
