@@ -3,6 +3,12 @@ Please remember that I won't be held responsible for any damages or injury relat
 Continue at your own risk knowing that I don't take responsibility for your actions.
 Be safe and have fun!
 
+WARNING:
+This project is very difficult, even if you have knowledge of programming and linux. 
+I completed this project a few years ago, and it was very difficult to get working.
+All those I've helped build this project also had a hard time making it work.
+Continue at your own risk, having been warned.
+
 
 ***IMPORTANT NOTE***
 
@@ -10,7 +16,7 @@ ALL my python scripts that I will ever write (probably) will be written in pytho
 PLEASE make sure that you run them with the correct python version (2.7).
 This may change in the future, so I'll let you know if it does.
 
-***IMPORTANT NOTE **
+***IMPORTANT NOTE ***
 
 The included schematic files are meant to be opened with GEDA schematic editor. You can get it here:
 www.gpleda.org
